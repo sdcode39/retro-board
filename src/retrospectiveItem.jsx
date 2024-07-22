@@ -4,7 +4,7 @@ import category from "./category";
 
 const retrospectiveItem = ({ item, Category, updateItemText, deleteItem, moveItem }) => {
     constHandleTextChange = (e) => {
-        updateItemText(Category, item.id e.target.value);
+        updateItemText(Category, item.id, e.target.value);
     };
 
     return (
